@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { IKonoList } from '../shared-interfaces'
 
-const LOCAL_API_URL = "http://localhost:3000/konoList"
+const LOCAL_API_URL = "http://localhost:3004/konoList"
 
 const api = axios.create({
     baseURL: LOCAL_API_URL,
