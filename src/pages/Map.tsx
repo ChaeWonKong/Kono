@@ -1,7 +1,7 @@
 /*global kakao*/
 
 import { IonPage, IonContent, IonHeader, IonTitle, IonToolbar, useIonViewDidEnter } from '@ionic/react'
-import React, { useEffect } from 'react'
+import React from 'react'
 
 declare global {
     interface Window {
@@ -32,7 +32,7 @@ const Map: React.FC = () => {
         <IonPage>
             <IonHeader>
                 <IonToolbar>
-                    <IonTitle>지도</IonTitle>
+                    <IonTitle>코노</IonTitle>
                 </IonToolbar>
             </IonHeader>
             <IonContent>
